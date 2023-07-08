@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=YsabeauInfant&display=swap");
+
+
+
+body {
+    font-family: YsabeauInfant, serif;
+    background: linear-gradient(90deg, #000 0%, #0136a1 95%);
+}
+
+p {
+    color: aquamarine;
+}
+
+.navlink {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(114, 114, 114);
+}
+
+.navbar-brand img{
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(114, 114, 114);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #000 0%, #0136a1 95%);
+}
+
+.card {
+    background: linear-gradient(270deg, #000 0%, #0136a1 95%);
+    color: aquamarine;
+}
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.slide-text,
+.footer-text{
+    color: aquamarine;
+    margin:auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(360deg, #000 0%, #0136a1 95%);
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 1s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
